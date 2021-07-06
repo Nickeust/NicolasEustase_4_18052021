@@ -704,8 +704,9 @@ p {
 }
 
 .social {
-    max-width: 400px;
     margin: auto auto auto auto;
+    list-style: none;
+    padding-top: 2rem;
 }
 
 h2 {
@@ -741,6 +742,21 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+}
+
+footer {
+    color: #333333 !important;
+}
+
+.grey {
+    color: #575757!important;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.img-responsive portfolio-thumb {
+    width: 100%;
+    height: auto;
 }
 
 .portfolio-thumb {
