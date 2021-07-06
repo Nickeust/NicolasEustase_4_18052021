@@ -749,14 +749,15 @@ footer {
 }
 
 .grey {
-    color: #575757!important;
+    color: #333333 !important;
     font-size: 2rem;
     padding-top: 2rem;
 }
 
-.img-responsive portfolio-thumb {
+.img-responsive {
     width: 100%;
     height: auto;
+    aspect-ratio: attr(width) / attr(height);
 }
 
 .portfolio-thumb {
