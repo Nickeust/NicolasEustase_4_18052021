@@ -302,8 +302,8 @@ a:hover {
 }
 
 .navbar-brand img {
+    width: 100;
     height: auto;
-    width: 100%;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -313,8 +313,8 @@ a:hover {
 }
 
 .image-resize-mode {
-    width: 200px;
-    height: 100%;
+    width: 30%;
+    height: auto;
 }
 
 .nav-center .navbar-brand img {
@@ -482,7 +482,7 @@ button {
 }
 
 .icon-md {
-    font-size: 3em!important;
+    font-size: 30px!important;
 }
 
 .icon-lg {
@@ -988,8 +988,8 @@ footer {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
-        width: auto;
+        height: auto;
+        width: 100%;
     }
     .nav-invert .navbar-header {
         float: none;
