@@ -33,14 +33,14 @@
             type="text/css"
             link
             rel="preload"
-            href="./css/font-awesome.css"
+            href="./css/font-awesome.min.css"
         />
         <link
             rel="stylesheet"
             type="text/css"
             link
             rel="preload"
-            href="./css/et-line.css"
+            href="./css/et-line.min.css"
         />
 
         <script src="./js/jquery-3.6.0.min.js"></script>
@@ -270,7 +270,7 @@
                                     aider les entreprises locales à attirer de
                                     nouveaux clients .<br />
                                 </h2>
-                                <p class="text-center lead white">
+                                <p class="text-center white">
                                     Nous aimons collaborer avec des
                                     entrepreneurs créatifs et des entreprises
                                     locale, qu’elles aient besoin de créer un
@@ -282,8 +282,14 @@
                                     créer des sites beau et bien structurés, qui
                                     seront facilement trouvable sur les moteurs
                                     de recherche. <br /><br /><a
-                                        class="ltc-white bold-link"
+                                        class="
+                                            btn
+                                            btn-atomic-tangerine
+                                            btn-rd
+                                            btn-lg
+                                        "
                                         href="contact.html"
+                                        aria-label="Lien vers la page contact"
                                         >Contactez notre équipe</a
                                     ><br />
                                 </p>
@@ -353,12 +359,12 @@
                             <div class="col-sm-6">
                                 <a
                                     href="#"
-                                    data-lightbox="img/3.png"
+                                    data-lightbox="img/3.jpg"
                                     data-gallery-id="gallery-1"
                                     data-caption="Création d'un site internet pour un voyageur"
                                     data-frame="snapshot-lb"
                                     ><img
-                                        src="img/3.png"
+                                        src="img/3.jpg"
                                         class="img-responsive portfolio-thumb"
                                         alt="vu du dessus d'un rangement organisé d'accessoires photographique et autres objets high-tech"
                                 /></a>
@@ -374,12 +380,12 @@
                             <div class="col-sm-6">
                                 <a
                                     href="#"
-                                    data-lightbox="img/4.png"
+                                    data-lightbox="img/4.jpg"
                                     data-gallery-id="gallery-1"
                                     data-caption="Conception d'un site pour une agence de mariage"
                                     data-frame="snapshot-lb"
                                     ><img
-                                        src="img/4.png"
+                                        src="img/4.jpg"
                                         class="img-responsive portfolio-thumb"
                                         alt="vu du dessus de deux paires de mains en train de travailler sur un bureau en désordre"
                                 /></a>
@@ -406,7 +412,6 @@
                         bg-banniere
                         d-bloc
                         bloc-bg-texture
-                        texture-paper
                     "
                     id="bloc-5-cta"
                 >
@@ -427,6 +432,7 @@
                                         btn-lg
                                         cta-hero
                                     "
+                                    aria-label="Aller sur la page Contact"
                                     >Contact</a
                                 >
                             </div>
@@ -435,6 +441,13 @@
                 </div>
                 <!-- bloc-5-cta END -->
             </main>
+
+            <!-- ScrollToTop Button -->
+            <a
+                class="bloc-button btn btn-d scrollToTop"
+                onclick="scrollToTarget('1')"
+                ><span class="fa fa-chevron-up"></span
+            ></a>
 
             <!-- Footer - bloc-8 -->
             <footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
