@@ -707,6 +707,9 @@ p {
     margin: auto auto auto auto;
     list-style: none;
     max-width:400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
 }
 
 h2 {
@@ -1068,4 +1071,8 @@ footer {
 .image-resize-mode {
     width: 150px;
     height: auto;
+}
+
+.fa{
+    margin-top: 2rem
 }
