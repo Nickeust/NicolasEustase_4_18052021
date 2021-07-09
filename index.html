@@ -9,7 +9,7 @@
         />
 
         <!-- Page Title -->
-        <title>La chouette agence</title>
+        <title>La chouette agence - Accueil</title>
 
         <!-- Canonical link -->
         <link rel="canonical" href="" />
@@ -62,6 +62,7 @@
                                     itemprop="logo"
                                     src="img/la-chouette-agence.png"
                                     alt="une chouette representant le logo de l'agence"
+                                    title="Retour à l'accueil"
                             /></a>
                             <button
                                 id="nav-toggle"
@@ -85,11 +86,19 @@
                         >
                             <ul class="site-navigation nav navbar-nav">
                                 <li>
-                                    <a href="index.html">Accueil</a>
+                                    <a
+                                        href="index.html"
+                                        aria-label="page d'accueil"
+                                        >Accueil
+                                    </a>
                                 </li>
                                 <li></li>
                                 <li>
-                                    <a href="contact.html">Contact</a>
+                                    <a
+                                        href="contact.html"
+                                        aria-label="page contact"
+                                        >Contact
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -122,7 +131,8 @@
                                     alt="une chouette representant le logo de l'agence"
                                 />
                                 <h1 class="text-center hero-bloc-text tc-white">
-                                    La chouette agence - Agence de web design
+                                    La chouette agence <br />
+                                    Agence de web design
                                 </h1>
                                 <div class="text-center">
                                     <a
@@ -133,6 +143,7 @@
                                             btn-atomic-tangerine
                                         "
                                         id="cta-hero"
+                                        aria-label="rejoindre la page contact"
                                         >Contact</a
                                     >
                                 </div>
@@ -244,7 +255,7 @@
                 </div>
                 <!-- bloc-2-services END -->
 
-                <!-- bloc-3-what-i-do -->
+                <!-- bloc-3-description -->
                 <div
                     class="
                         bloc
@@ -297,7 +308,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- bloc-3-what-i-do END -->
+                <!-- bloc-3-description END -->
 
                 <!-- bloc-4-portfolio -->
                 <div
@@ -324,6 +335,7 @@
                                     ><img
                                         src="img/1.jpg"
                                         alt="une pile de magazine ouvert et coloré"
+                                        title="agrandir image refonte web"
                                         class="img-responsive portfolio-thumb"
                                 /></a>
                                 <h3 class="mg-md text-center">
@@ -345,6 +357,7 @@
                                         src="img/2.jpg"
                                         class="img-responsive portfolio-thumb"
                                         alt="femme avec une capuche prennant une photo avec en fond une rue éclairé"
+                                        title="agrandir image creation site web"
                                 /></a>
                                 <h3 class="mg-md text-center">
                                     Création d'un site web pour photographes
@@ -366,6 +379,7 @@
                                     ><img
                                         src="img/3.jpg"
                                         class="img-responsive portfolio-thumb"
+                                        title="agrandir image creation site voyageur"
                                         alt="vu du dessus d'un rangement organisé d'accessoires photographique et autres objets high-tech"
                                 /></a>
                                 <h3 class="mg-md text-center">
@@ -387,6 +401,7 @@
                                     ><img
                                         src="img/4.jpg"
                                         class="img-responsive portfolio-thumb"
+                                        title="agrandir image conception site"
                                         alt="vu du dessus de deux paires de mains en train de travailler sur un bureau en désordre"
                                 /></a>
                                 <h3 class="mg-md text-center">
@@ -404,7 +419,7 @@
                 </div>
                 <!-- bloc-4-portfolio END -->
 
-                <!-- bloc-5-cta -->
+                <!-- bloc-5-contact -->
                 <div
                     class="
                         bloc
@@ -439,7 +454,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- bloc-5-cta END -->
+                <!-- bloc-5-contact END -->
             </main>
 
             <!-- ScrollToTop Button -->
@@ -448,6 +463,7 @@
                 onclick="scrollToTarget('1')"
                 ><span class="fa fa-chevron-up"></span
             ></a>
+            <!-- ScrollToTop Button END -->
 
             <!-- Footer - bloc-8 -->
             <footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
@@ -461,6 +477,7 @@
                                 <li class="col-sm-3">
                                     <a
                                         itemprop="sameAs"
+                                        aria-label="lien vers Twitter"
                                         href="https://twitter.com/"
                                         title="tw"
                                         target="_blank"
@@ -473,6 +490,7 @@
                                 <li class="col-sm-3">
                                     <a
                                         itemprop="sameAs"
+                                        aria-label="lien vers Facebook"
                                         href="https://www.facebook.com/"
                                         title="fb"
                                         target="_blank"
@@ -485,6 +503,7 @@
                                 <li class="col-sm-3">
                                     <a
                                         itemprop="sameAs"
+                                        aria-label="lien vers Dribble"
                                         href="https://dribbble.com/"
                                         title="dribbble"
                                         target="_blank"
@@ -497,6 +516,7 @@
                                 <li class="col-sm-3">
                                     <a
                                         itemprop="sameAs"
+                                        aria-label="lien vers Instagram"
                                         href="https://www.instagram.com/"
                                         title="instagram"
                                         target="_blank"
